@@ -8,7 +8,7 @@ int main()
 	// ...
 	printf("I don't know what to say!\n");
 	printf("I think I need write something new!\n");
-	int m,n,t=0;
+	int r,m,n,t=0;
 	printf("please enter two nem:");
 	scanf("%d,%d",&m,&n);
        if(m<n)
