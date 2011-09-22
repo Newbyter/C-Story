@@ -1,14 +1,16 @@
 #include <stdio.h>
-#include<iostream>
+
+void ZGN();
+void QRJ();
+void LH();
+void JDQ();
+
 int main()
 {
-	// 2011-9-20 by jianru.lin@gmail.com
-	printf("#1(jianru.lin): oh yeah~!\n");
-	printf("Modified it!");
-	// your turn
-	// ...
-	std::cout<<"Let's BS Mr.Lin!"<<std::endl;//By HHH
-	char Lin='5',Jian='2',Ru='0';//By HHH
-	std::cout<<Lin Jian Ru<<std::endl;//By HHH
+	// just call everyone's function
+	ZGN();
+	QRJ();
+	LH();
+	JDQ();
 	return 0;
 }
