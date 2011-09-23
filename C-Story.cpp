@@ -4,6 +4,7 @@ void ZGN();
 void QRJ();
 void LH();
 void JDQ();
+void JQQ();
 
 int main()
 {
@@ -12,5 +13,6 @@ int main()
 	QRJ();
 	LH();
 	JDQ();
+	JQQ();
 	return 0;
 }
