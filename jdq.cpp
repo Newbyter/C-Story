@@ -1,8 +1,18 @@
-#include <stdio.h>
 
-void JDQ()
+#include<iostream>
+using namespace std;
+ 
+int main()
 {
-	// write your code here
-	// any code ...
-	printf("JDQ\n");
+    int number, remainder;
+ 
+    cout << "Enter the number : ";
+    cin >> number;
+    remainder = number % 2;
+    if (remainder == 0)
+        cout << number << " is an even integer " << endl;
+    else
+        cout << number << " is an odd integer " << endl;
+ 
+    return 0;
 }
